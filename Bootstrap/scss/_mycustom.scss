@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/* reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+img,
+form,
+table,
+tr,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+textarea {
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+img {
+	border-style: none;
+}
+
+hr {
+	display: none;
+}
+
+em {
+	font-style: normal
+}
+
+input {
+	line-height: auto;
+	vertical-align: middle;
+}
+
+strong.more {
+	color: #c30
+}
+
+a {
+	text-decoration: none;
+}
+
+
+body {
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	background-color: #FFEFD5;
+}
+
+.contents {
+	padding-left: 13%;
+	padding-right: 13%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* header */
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+	padding: 5px;
+	background-color: lightgray;
+}
+
+a {
+	color: gray;
+}
+
+a:active {
+	color: black;
+}
+
+/* /header */
+
+.accordion-button {
+	background-color: #FFC7AF;
+}
+
+.accordion-body {
+	line-height: 40px;
+	background-color: #FFEFD5;
+}
+
+.container {
+	width: 100%;
+}
+
+.row {
+	margin: auto;
+	margin-top: 30px
+}
+
+.col-6 {
+	padding: 20px;
+}
+
+.col-9 {
+	padding: 10px;
+}
+
+.detail_image {
+	aspect-ratio: 4/3;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.clearfix {
+	margin: auto;
+	margin-top: 20px;
+	background-color: black;
+}
+
+.clearfix_text {
+	color: white;
+	padding: 20px;
+	line-height: 50px;
+}
+
+.shop_img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+}
+
+ul.custom-list {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+ul.custom-list li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	line-height: 1.5;
+}
+
+.list-icon {
+	width: 20px;
+	height: 20px;
+}
+
+footer {
+	padding: 30px;
+	justify-content: center;
+	display: flex;
+	background-color: darkgray;
+}
+
+.footer_elements {
+	padding: 10px 10px 30px 10px;
+}
+
+.btn-outline-success {
+	--bs-btn-color: gray;
+	--bs-btn-border-color: gray;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: gray;
+	--bs-btn-hover-border-color: gray;
+	--bs-btn-focus-shadow-rgb: 25, 135, 84;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: gray;
+	--bs-btn-active-border-color: gray;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: gray;
+	--bs-btn-disabled-bg: transparent;
+	--bs-btn-disabled-border-color: gray;
+	--bs-gradient: none;
+}
+
+.bg-body-tertiary {
+	--bs-bg-opacity: 1;
+	background-color: lightgray;
+}
+
