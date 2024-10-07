@@ -4462,11 +4462,10 @@ fieldset:disabled .btn {
   opacity: 0;
 }
 
-@media(max-width: 768px) {
-  .collapse:not(.show) {
-    display: none;
-  }
+.collapse:not(.show) {
+  display: none;
 }
+
 
 .collapsing {
   height: 0;
