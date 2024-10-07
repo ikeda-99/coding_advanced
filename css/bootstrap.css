@@ -15589,7 +15589,7 @@ li.nav-item {
   .collapse.show {
     margin-left: 0;
     margin-right: auto;
-    width: 500px;
+    width: auto;
   }
 }
 
